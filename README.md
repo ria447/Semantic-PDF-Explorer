@@ -15,4 +15,4 @@ This system successfully extracts text from the user-provided PDF and uses Zero-
 This was my first project. Hugging Face transformer was a new topic for me. Also learnt how to integrate Zero-Shot Classification in this system.
 
 *How to run this assignment?*
-The program will easily run on VS Code. Transformers and PyTorch have to be installed before running the program on VS Code. Also, the PDF provided by the user MUST lie in the same directory as the code file.
+The program will easily run on VS Code. Transformers, PyPDF2 and PyTorch have to be installed before running the program on VS Code. Also, the PDF provided by the user MUST lie in the same directory as the code file.
