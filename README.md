@@ -6,7 +6,7 @@ This project was built using Hugging Face Zero Shot Classification. The chunks w
 Text of the PDF is extracted using the PyPDF2 library. The chunks whose size is less than 300 are considered, and any exceptions that arise are also handled effectively. 
 
 *Difficulties faced:*
-The code initially threw a lot of errors, which were quite frustrating. Debugging was the major challenge in this project.
+Having no prior knowledge about the topic was a major hurdle. The code initially threw a lot of errors, which were quite frustrating. Debugging was the major challenge in this project.
 
 *Results:* 
 This system successfully extracts text from the user-provided PDF and uses Zero-Shot Classification to identify content relevant to the user's query. Relevant texts/chunks having a confidence score greater than or equal to 50% are displayed. 
