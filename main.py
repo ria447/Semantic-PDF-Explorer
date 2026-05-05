@@ -1,6 +1,7 @@
 import PyPDF2
 from transformers import pipeline
 
+#user input  
 user_pdf = input("Enter the name of the PDF file you want to read which should be in the same directory: ")
 
 pdf_file = open(user_pdf, 'rb')
